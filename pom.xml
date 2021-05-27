@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.xdove</groupId>
-    <artifactId>spring-test-plus</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>fast-test</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -94,4 +94,13 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Wszl/fast-test</url>
+        </repository>
+    </distributionManagement>
+
 </project>
